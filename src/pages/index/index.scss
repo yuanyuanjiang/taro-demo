@@ -1,0 +1,19 @@
+.index-wrapper {
+  .w-60 {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .mini-btn {
+    margin-right: 10rpx;
+    margin-top: 20px;
+  }
+  .small-btn {
+    width: 181px;
+  }
+  .flex-row-between-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
