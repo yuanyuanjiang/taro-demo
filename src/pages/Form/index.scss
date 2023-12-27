@@ -1,0 +1,69 @@
+.create-wrapper {
+  min-height: 100vh;
+  padding: 0.8rem;
+  box-sizing: border-box;
+  background-color: #f4f5f6;
+  font-size: 0.8rem;
+  .create-content {
+    padding: 0.8rem;
+    background-color: #fff;
+  }
+  .create-title {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-left: 0.4rem;
+  }
+  .example-body {
+    height: 2.4rem;
+    line-height: 2.4rem;
+    border-top: 1px solid #e0dede;
+    &.no-border {
+      border: none;
+    }
+    input,
+    select {
+      text-align: right;
+    }
+    .place-holder {
+      color: #aaa;
+    }
+    .form-label {
+      color: #666;
+    }
+    .weui-input ::placeholder {
+      color: #ccc;
+    }
+  }
+
+  .chanxiao-wrap {
+    background: rgba(243, 243, 243, 0.6);
+    border-radius: 4px;
+    padding: 0.6rem 0.8rem 0;
+    margin-bottom: 0.8rem;
+    .chanxiao-title {
+      border-bottom: 1px solid #e0dede;
+      padding-bottom: 0.4rem;
+    }
+    .w-100 {
+      width: 100%;
+    }
+    .text-left {
+      text-align: left;
+    }
+    .w-5rem {
+      width: 5rem;
+    }
+  }
+  .opt-btn-wrap {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #fff;
+    text-align: right;
+    .btn {
+      width: 5rem;
+      display: inline-block;
+    }
+  }
+}

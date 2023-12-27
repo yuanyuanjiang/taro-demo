@@ -1,0 +1,41 @@
+.list-page-wrapper {
+  min-height: calc(100vh - 2.5rem);
+  // min-height: calc(100vh - 94px);
+  padding: 0 16px;
+  box-sizing: border-box;
+  background-color: #f4f5f6;
+  .search-btn {
+    width: 3rem;
+    margin: 0;
+  }
+  .search-bar {
+    position: fixed;
+    width: 100vw;
+    // width: 414px;
+    left: 0;
+    right: 0;
+    top: 0;
+    // height: 2rem;
+    height: 80px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    background-color: #fff;
+    .search-input {
+      width: 100%;
+      border: 1px solid #eee;
+      border-radius: 4px;
+      padding-left: 8px;
+    }
+  }
+  .list-content {
+    padding-top: 2rem;
+  }
+  .list-no-content {
+    margin-top: 5rem;
+  }
+  .create-img {
+    position: fixed;
+    right: 0;
+    top: 45%;
+  }
+}

@@ -6,8 +6,9 @@ import "./index.scss";
 export default function Index() {
   let [count, setCount] = useState<number>(1);
   useLoad(() => {
-    console.log("Page loaded111.");
+    console.log("当前环境变量：", process.env.TARO_ENV); //编译的是h5，所以打印出来的是"h5"
   });
+
   const add = () => {
     count += 1;
     setCount(count);
@@ -15,8 +16,7 @@ export default function Index() {
   // onload;
   return (
     <View className="basic-wrapper">
-      <Text>test---组件!</Text>
-      {/* <Link></Link> */}
+      <Text>页脚</Text>
     </View>
   );
 }
